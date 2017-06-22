@@ -1,0 +1,73 @@
+** %^{Name of Build}
+:PROPERTIES:
+:LEAGUE: Fall of Oriath 3.0
+:BUILD: %^{Build Type}
+:END:
+
+%^{Description of build}
+
+*** Skill Tree
+  Link:
+
+*** Gem Links
+Delete as needed.
+
+**** Head
+1 - 2 - 3 - 4
+
+**** Chest
+
+***** Aoe Setup
+1 - 2 - 3 - 4 - 5 - 6
+
+***** Single target Setup  
+1 - 2 - 3 - 4 - 5 - 6
+
+**** Gloves
+1 - 2 - 3 - 4
+
+**** Boots
+1 - 2 - 3 - 4
+
+**** Weapon
+
+***** Two Hand
+1 - 2 - 3 - 4 - 5 - 6
+
+***** Mainhand
+1 - 2 - 3
+
+***** Offhand
+1 - 2 - 3
+
+*** Specific Equipment
+Delete as needed.
+
+**** Head
+
+**** Chest 
+
+**** Gloves
+
+**** Boots
+
+**** Weapon
+
+***** Two Hand
+
+***** Mainhand
+
+***** Offhand
+
+**** Amulet
+
+**** Rings
+
+***** Ring Left
+
+***** Ring Right
+
+**** Belt 
+
+*** Jewels
+
