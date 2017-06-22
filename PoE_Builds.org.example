@@ -1,61 +1,9 @@
 #+STARTUP: indent
 #+CATEGORY: PathOfExile
-#+SETUPFILE: PoELinkList
+#+SETUPFILE: poeOrgResources
 
 * Path Of Exile Builds
 Collection of Builds for Path Of Exile.
-
-** Deadeye fireball searing totem build
-:PROPERTIES:
-:LEAGUE: Fall of Oriath 3.0
-:BUILD: Spell
-:END:
-Eventuelt kutte alle aura, sette inn jewel 100%spell dmg med når ikkje reserved mana og gå MoM + Cloak Of Defiance + kutt dmg nodes for mana nodes
-
-*** Skill Tree
-   [[https://www.pathofexile.com/passive-skill-tree/AAAABAICAAHRBAcEswj0D6sRLREvFr8W8xmKGjgc3CL0JIsmPCaVJy8o-isKLJwvnTLRNZI6WDrYOuE8BTwtPV9Bh0SrRUdFfEWdSbFMs03jUEJSU1M1U1JUR1VLVa5Vxl3yYeJmVGpDbAttGXyDghCCm4LHg1-DzIPbhMWFe4w2jxqPppBVkyeXBpeVl5eX9Jo7muCbtZ7En9-hIqEvogCiQKZXpr6v67Q4tz64k7vjvOq-isBmwzrEotAf1abXz9i937DlGevu7DjtPO9874jv6_Af8kX0-Pk3-ej79f4K_o_-ug==][Deadeye SearingTotem Chaining Fireball Skill Tree]]
-
-*** Links
-
-**** Head
-    [[http://pathofexile.gamepedia.com/Searing_Bond][Searing Totem]] - [[http://pathofexile.gamepedia.com/Increased_Burning_Damage_Support][Increased Burning Damage]] - [[http://pathofexile.gamepedia.com/Minion_and_Totem_Elemental_Resistance_Support][Minion and Totem Elemental Resistance Support]] - Rapid Decay/Empower
-**** Chest
-
-***** Aoe Setup
-     [[http://pathofexile.gamepedia.com/Fireball][Fireball]] - Spell Echo - Immolate - Fire Pen - Elemental Focus - GMP
-***** Single target Setup  
-     [[http://pathofexile.gamepedia.com/Fireball][Fireball]] - Spell Echo - Immolate - Fire Pen - Elemental Focus - Slower Projectiles
-
-**** Gloves
-   [[Orb_of_Storms]]  - Curse on Hit - Flammability - Fire/Lightning Golem(Temporal Chains)
-
-**** Boots
-    Cwtd - Immortal Call - Arctic Breath - GMP (Ve chaine so det funka bra. eventuelt Ice Bite istaden for Immortal call for frenzy)
-
-**** Weapon
-
-***** Mainhand
-     Lighting Warp - faster casting - reduced duration
-
-***** Offhand
-     Anger - Enlighten - Clarity (Eventuelt cwdt - Immortal call - Inc Duration)
-
-*** Gear
-
-**** Head
-    [[http://pathofexile.gamepedia.com/Essence_of_Horror][Essences of Horror]] crafted Helmet - Goves 30% More elemental Damage
-
-**** Weapon
-
-***** Main Hand
-     Doryanis catalyst
-
-**** Ring
-   [[http://pathofexile.gamepedia.com/Praxis][Praxis]] (Hvis eg går MoM) 
-
-*** Jewel
-   2x [[http://pathofexile.gamepedia.com/Rolling_Flames][Rolling Flames]]
-   Jewels with Life, Cast speed, Ele dmg, Fire dmg
 
 ** Deadeye Fireball Searing Totem Build
 :PROPERTIES:
@@ -63,23 +11,96 @@ Eventuelt kutte alle aura, sette inn jewel 100%spell dmg med når ikkje reserved
 :BUILD: Spell, Totem
 :END:
 
-Selfcaste fireball med gmp og chaining for pack clearing. Sette ned searing totem paa vansklige fienda. Early game uten  MoM, men kan gaa MoM late game med bruke 100% spelldmg jewel med 0% reserved mana og bruke Cloak of defiance og adde inn fleire mana noda for liv.
+Late Game alternative is to go MoM for the mana nodes and use Cloak of Defiance for 50% damage taken to mana. In order to help this use Clear Mind Jewel for increased spell damage and mana regen when no mana is reserved.
+Use searing bond for increased damage against bosses and difficult mobs.
 
 *** Skill Tree
-  Link:[[https://www.pathofexile.com/passive-skill-tree/AAAABAICAAHRBAcEswj0D6sRLREvFr8W8xmKGjgc3CL0JIsmPCaVJy8o-isKLJwvnTLRNZI6WDrYOuE8BTwtPV9Bh0SrRUdFfEWdSbFMs03jUEJSU1M1U1JUR1VLVa5Vxl3yYeJmVGpDbAttGXyDghCCm4LHg1-DzIPbhMWFe4w2jxqPppBVkyeXBpeVl5eX9Jo7muCbtZ7En9-hIqEvogCiQKZXpr6v67Q4tz64k7vjvOq-isBmwzrEotAf1abXz9i937DlGevu7DjtPO9874jv6_Af8kX0-Pk3-ej79f4K_o_-ug==][Tree]] 
+  Link:[[https://www.pathofexile.com/passive-skill-tree/AAAABAICAAHRBAcEswj0D6sRLREvFr8W8xmKGjgc3CL0JIsmPCaVJy8o-isKLJwvnTLRNZI6WDrYOuE8BTwtPV9Bh0SrRUdFfEWdSbFMs03jUEJSU1M1U1JUR1VLVa5Vxl3yYeJmVGpDbAttGXyDghCCm4LHg1-DzIPbhMWFe4w2jxqPppBVkyeXBpeVl5eX9Jo7muCbtZ7En9-hIqEvogCiQKZXpr6v67Q4tz64k7vjvOq-isBmwzrEotAf1abXz9i937DlGevu7DjtPO9874jv6_Af8kX0-Pk3-ej79f4K_o_-ug==][Tree]]
+
+*** Gem Links
+
+**** Head
+[[Searing_Bond]] - [[Increased_Burning_Damage_Support]] - [[Minion_and_Totem_Elemental_Resistance_Support]] -[[Rapid_Decay_Support]]/[[Empower_Support]]
+
+**** Chest
+
+***** Aoe Setup
+[[Fireball]] - [[Spell_Echo_Support]] - Immolate - [[Fire_Penetration_Support]] - [[Elemental_Focus_Support]] - [[Greater_Multiple_Projectiles_Support]]
+
+***** Single Target Setup
+[[Fireball]] - [[Spell_Echo_Support]] - Immolate - [[Fire_Penetration_Support]] - [[Elemental_Focus_Support]] -[[Slower_Projectiles_Support]]
+
+**** Gloves
+[[Orb_of_Storms]] - [[Curse_On_Hit_Support]] - [[Flammability]] -[[Summon_Flame_Golem]] /[[Summon_Lightning_Golem]] /[[Temporal_Chains]]
+
+**** Boots
+Arctich breah with gmp and deadeye chain will spread chill, and Ice bite in order to occasionally generate frenzy charges.
+[[Cast_when_Damage_Taken_Support]] - [[Arctic_Breath]] - [[Greater_Multiple_Projectiles_Support]] -[[Ice_Bite_Support]]
+
+**** Weapon
+
+***** Mainhand
+[[Lightning_Warp]] - [[Faster_Casting_Support]] -[[Less_Duration_Support]]
+
+***** Offhand
+[[Anger]] - [[Clarity]] -[[Enlighten_Support]]
+If MoM then this setup:
+[[Cast_when_Damage_Taken_Support]] - [[Immortal_Call]] -[[Increased_Duration_Support]]
+
+*** Specific Equipment
+
+**** Head
+Essences of Horror Crafted Rare Helmet.
+
+**** Chest
+
+**** Gloves
+
+**** Boots
+
+**** Weapon
+
+
+***** Mainhand
+Doryanis catalyst
+
+***** Offhand
+
+**** Amulet
+
+**** Rings
+If MoM:
+[[Praxis]]
+
+**** Belt
+[[Doryani's_Invitation_(Fire_Damage)]]
+
+*** Jewels
+2x Rolling Flames
+#x Rare Jewels with life, Cast Speed, Ele Dmg, Fire Dmg.
+
+** Example Build
+:PROPERTIES:
+:LEAGUE: Fall of Oriath 3.0
+:BUILD: Melee, Totem
+:END:
+
+Just an empty template to show an empty build.
+*** Skill Tree
+  Link:
 
 *** Gem Links
 Delete as needed.
 
 **** Head
-[[Searing_Bond]] - [[Increased_Burning_Damage_Support]] - [[Minion_and_Totem_Elemental_Resistance_Support]] -[[Rapid_Decay_Support]]/[[Empower_Support]] 
+1 - 2 - 3 - 4
 
 **** Chest
 
 ***** Aoe Setup
-[[Fireball]] - [[Spell_Echo_Support]] - 3 - 4 - 5 - 6
+1 - 2 - 3 - 4 - 5 - 6
 
-***** Single target Setup  
+***** Single target Setup
 1 - 2 - 3 - 4 - 5 - 6
 
 **** Gloves
@@ -104,7 +125,7 @@ Delete as needed.
 
 **** Head
 
-**** Chest 
+**** Chest
 
 **** Gloves
 
@@ -126,7 +147,6 @@ Delete as needed.
 
 ***** Ring Right
 
-**** Belt 
+**** Belt
 
 *** Jewels
-
