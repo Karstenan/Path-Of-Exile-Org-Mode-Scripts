@@ -1,11 +1,12 @@
-** %^{Name of Build}
+** %^{Name of Build} 
 :PROPERTIES:
+:CREATED: %t
 :LEAGUE: Fall of Oriath 3.0
 :BUILD: %^{Build Type}
 :END:
 
 %^{Description of build}
-
+%?
 *** Skill Tree
   Link:
 

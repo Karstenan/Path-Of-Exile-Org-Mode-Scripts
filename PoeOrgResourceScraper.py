@@ -3,14 +3,18 @@ import json
 import re
 
 urlBase = "http://pathofexile.gamepedia.com/"
+
 skillGemsList = []
 uniqueAccessoriesList = []
+uniqueArmoursList = []
 
 urlSkillGems = 'https://pathofexile.gamepedia.com/api.php?format=json&action=browsebysubject&subject=List%20of%20skill%20gems'
 urlUniqueAccessories = "https://pathofexile.gamepedia.com/api.php?format=json&action=browsebysubject&subject=List%20of%20unique%20accessories"
+urlUniqueArmours = "https://pathofexile.gamepedia.com/api.php?format=json&action=browsebysubject&subject=List%20of%20unique%20armour"
 
 skillGemsRequest = requests.get(urlSkillGems)
 uniqueAccessoriesRequest = requests.get(urlUniqueAccessories)
+uniqueArmoursRequest = requests.get(urlUniqueArmours)
 
 
 
@@ -64,5 +68,11 @@ uniqueAccessoriesList = listCleaner(uniqueAccessoriesList)
 uniqueAccessoriesList = makeOrgLinks(uniqueAccessoriesList)
 print(uniqueAccessoriesList)
 
-mergedList = skillGemsList + uniqueAccessoriesList
+# Prepare Unique Armours
+uniqueArmoursList = getNamesFromJson(uniqueArmoursRequest)
+uniqueArmoursList = listCleaner(uniqueArmoursList)
+uniqueArmoursList = makeOrgLinks(uniqueArmoursList)
+print(uniqueArmoursList)
+
+mergedList = skillGemsList + uniqueAccessoriesList + uniqueArmoursList
 writeResultToFile(mergedList)
