@@ -7,17 +7,23 @@ urlBase = "http://pathofexile.gamepedia.com/"
 skillGemsList = []
 uniqueAccessoriesList = []
 uniqueArmoursList = []
+uniqueWeaponsList = []
+uniqueFlasksList = []
+uniqueJewelsList = []
 
+essencesList = []
+
+############################### JSON URL LIST ##############################################
 urlSkillGems = 'https://pathofexile.gamepedia.com/api.php?format=json&action=browsebysubject&subject=List%20of%20skill%20gems'
 urlUniqueAccessories = "https://pathofexile.gamepedia.com/api.php?format=json&action=browsebysubject&subject=List%20of%20unique%20accessories"
 urlUniqueArmours = "https://pathofexile.gamepedia.com/api.php?format=json&action=browsebysubject&subject=List%20of%20unique%20armour"
+urlUniqueWeapons = "https://pathofexile.gamepedia.com/api.php?format=json&action=browsebysubject&subject=List%20of%20unique%20weapons"
+urlUniqueFlasks = "https://pathofexile.gamepedia.com/api.php?format=json&action=browsebysubject&subject=List%20of%20unique%20flasks"
+urlUniqueJewels = "https://pathofexile.gamepedia.com/api.php?format=json&action=browsebysubject&subject=List%20of%20unique%20jewels"
 
-skillGemsRequest = requests.get(urlSkillGems)
-uniqueAccessoriesRequest = requests.get(urlUniqueAccessories)
-uniqueArmoursRequest = requests.get(urlUniqueArmours)
+urlEssences = ""
 
-
-
+# Returns a list with relevant data values(names) from json 
 def getNamesFromJson(urlRequestResult):
     tempList = []
     jsonObj = json.loads(urlRequestResult.text)
@@ -30,6 +36,7 @@ def getNamesFromJson(urlRequestResult):
                     tempList.append(name['item'])
     return tempList
 
+# Cleans the entries not wanted in the end result
 def listCleaner(listToBeCleaned):
     regex = "^\[\[\:"
     for i, name in enumerate(listToBeCleaned):
@@ -38,12 +45,14 @@ def listCleaner(listToBeCleaned):
             listToBeCleaned.remove(name)
     return listToBeCleaned
 
+# Writes list to a file
 def writeResultToFile(listToWrite, fileName):
     f = open(fileName, 'w')
     for stringToWrite in listToWrite:
         f.write(stringToWrite+'\n')  # python will convert \n to os.linesep
     f.close()  # you can omit in most cases as the destructor will call it
 
+# Generates the final list and removies unwanted characters.
 def makeNameList(listToBeChanged, poeRequest):
     listToBeChanged = getNamesFromJson(poeRequest)
     listToBeChanged = listCleaner(listToBeChanged)
@@ -51,13 +60,32 @@ def makeNameList(listToBeChanged, poeRequest):
         replaced = re.sub('[\][:]', '', name)
         listToBeChanged[i] = replaced
     return listToBeChanged
+    
 
+############################## Get json ##############################################
+skillGemsRequest = requests.get(urlSkillGems)
+uniqueAccessoriesRequest = requests.get(urlUniqueAccessories)
+uniqueArmoursRequest = requests.get(urlUniqueArmours)
+uniqueWeaponsRequest = requests.get(urlUniqueWeapons)
+uniqueFlasksRequest = requests.get(urlUniqueFlasks)
+uniqueJewelsRequest = requests.get(urlUniqueJewels)
+
+
+################## Clean and generate lists of gems, items and jewels  ###############
 skillGemsList = makeNameList(skillGemsList, skillGemsRequest)
 uniqueAccessoriesList = makeNameList(uniqueAccessoriesList, uniqueAccessoriesRequest)
 uniqueArmoursList = makeNameList(uniqueArmoursList, uniqueArmoursRequest)
+uniqueWeaponsList = makeNameList(uniqueWeaponsList, uniqueWeaponsRequest)
+uniqueFlasksList = makeNameList(uniqueFlasksList, uniqueFlasksRequest)
+uniqueJewelsList = makeNameList(uniqueJewelsList, uniqueJewelsRequest)
 
-mergedListOfNames = skillGemsList + uniqueAccessoriesList + uniqueArmoursList
+########################## Merge all lists into one and write to file ################
+mergedListOfNames = skillGemsList + uniqueAccessoriesList + uniqueArmoursList + uniqueWeaponsList + uniqueFlasksList + uniqueJewelsList
+
 writeResultToFile(mergedListOfNames, 'listOfLinkNames')
+
+
+
 
 
 ####################### Old Approach ##############################
