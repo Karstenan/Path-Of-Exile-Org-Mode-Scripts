@@ -38,41 +38,56 @@ def listCleaner(listToBeCleaned):
             listToBeCleaned.remove(name)
     return listToBeCleaned
 
-def makeOrgLinks (listToBeChanged):
-    # +LINK: Spell_Echo_Support http://pathofexile.gamepedia.com/Spell_Echo_Support
-    for i, name in enumerate(listToBeChanged):
-        replaced = re.sub('[\][:]', '', name)
-        replaced = re.sub('[\s]', '_', replaced)
-        skillName = replaced
-        replaced = re.sub('\'', '%27', replaced)
-        replaced = re.sub('^', urlBase, replaced)
-        replaced = re.sub('^', '#+LINK: '+skillName+' ', replaced)
-        listToBeChanged[i] = replaced
-    return listToBeChanged
-
-def writeResultToFile(listToWrite):
-    f = open('poeOrgResources', 'w')
+def writeResultToFile(listToWrite, fileName):
+    f = open(fileName, 'w')
     for stringToWrite in listToWrite:
         f.write(stringToWrite+'\n')  # python will convert \n to os.linesep
     f.close()  # you can omit in most cases as the destructor will call it
 
-# Prepare active and support skill gems
-skillGemsList = getNamesFromJson(skillGemsRequest)
-skillGemsList = listCleaner(skillGemsList)
-skillGemsList = makeOrgLinks(skillGemsList)
-print(skillGemsList)
+def makeNameList(listToBeChanged, poeRequest):
+    listToBeChanged = getNamesFromJson(poeRequest)
+    listToBeChanged = listCleaner(listToBeChanged)
+    for i, name in enumerate(listToBeChanged):
+        replaced = re.sub('[\][:]', '', name)
+        listToBeChanged[i] = replaced
+    return listToBeChanged
 
-# Prepare Unique accessores
-uniqueAccessoriesList = getNamesFromJson(uniqueAccessoriesRequest)
-uniqueAccessoriesList = listCleaner(uniqueAccessoriesList)
-uniqueAccessoriesList = makeOrgLinks(uniqueAccessoriesList)
-print(uniqueAccessoriesList)
+skillGemsList = makeNameList(skillGemsList, skillGemsRequest)
+uniqueAccessoriesList = makeNameList(uniqueAccessoriesList, uniqueAccessoriesRequest)
+uniqueArmoursList = makeNameList(uniqueArmoursList, uniqueArmoursRequest)
 
-# Prepare Unique Armours
-uniqueArmoursList = getNamesFromJson(uniqueArmoursRequest)
-uniqueArmoursList = listCleaner(uniqueArmoursList)
-uniqueArmoursList = makeOrgLinks(uniqueArmoursList)
-print(uniqueArmoursList)
+mergedListOfNames = skillGemsList + uniqueAccessoriesList + uniqueArmoursList
+writeResultToFile(mergedListOfNames, 'listOfLinkNames')
 
-mergedList = skillGemsList + uniqueAccessoriesList + uniqueArmoursList
-writeResultToFile(mergedList)
+
+####################### Old Approach ##############################
+# def doListStuff(listPrep, poeRequest):
+#     listPrep = getNamesFromJson(poeRequest)
+#     listPrep = listCleaner(listPrep)
+#     listPrep = makeOrgLinks(listPrep)
+#     return listPrep
+
+# def makeOrgLinks (listToBeChanged):
+#     # +LINK: Spell_Echo_Support http://pathofexile.gamepedia.com/Spell_Echo_Support
+#     for i, name in enumerate(listToBeChanged):
+#         replaced = re.sub('[\][:]', '', name)
+#         replaced = re.sub('[\s]', '_', replaced)
+#         skillName = replaced
+#         replaced = re.sub('\'', '%27', replaced)
+#         replaced = re.sub('^', urlBase, replaced)
+#         replaced = re.sub('^', '#+LINK: '+skillName+' ', replaced)
+#         listToBeChanged[i] = replaced
+#     return listToBeChanged
+
+#skillGemsList = doListStuff(skillGemsList, skillGemsRequest)
+#print(skillGemsList)
+
+#uniqueAccessoriesList = doListStuff(uniqueAccessoriesList, uniqueAccessoriesRequest)
+#print(uniqueAccessoriesList)
+
+#uniqueArmoursList = doListStuff(uniqueArmoursList, uniqueArmoursRequest)
+#print(uniqueArmoursList)
+
+
+#mergedList = skillGemsList + uniqueAccessoriesList + uniqueArmoursList
+#writeResultToFile(mergedList, 'poeOrgResources')
