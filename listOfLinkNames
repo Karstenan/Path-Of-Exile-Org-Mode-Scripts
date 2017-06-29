@@ -1,0 +1,989 @@
+Abyssal Cry
+Added Chaos Damage Support
+Added Cold Damage Support
+Added Fire Damage Support
+Added Lightning Damage Support
+Additional Accuracy Support
+Ancestral Protector
+Ancestral Warchief
+Anger
+Animate Guardian
+Animate Weapon
+Arc
+Arctic Armour
+Arctic Breath
+Assassin's Mark
+Ball Lightning
+Barrage
+Bear Trap
+Blade Flurry
+Blade Vortex
+Bladefall
+Blasphemy Support
+Blast Rain
+Blight
+Blind Support
+Blink Arrow
+Block Chance Reduction Support
+Blood Magic Support
+Blood Rage
+Bloodlust Support
+Bone Offering
+Burning Arrow
+Cast On Critical Strike Support
+Cast on Death Support
+Cast on Melee Kill Support
+Cast when Damage Taken Support
+Cast when Stunned Support
+Cast while Channelling Support
+Caustic Arrow
+Chain Support
+Chance to Flee Support
+Chance to Ignite Support
+Clarity
+Cleave
+Cluster Traps Support
+Cold Penetration Support
+Cold Snap
+Cold to Fire Support
+Concentrated Effect Support
+Conductivity
+Contagion
+Controlled Destruction Support
+Conversion Trap
+Convocation
+Culling Strike Support
+Curse On Hit Support
+Cyclone
+Decoy Totem
+Desecrate
+Determination
+Detonate Dead
+Detonate Mines
+Devouring Totem
+Discharge
+Discipline
+Dominating Blow
+Double Strike
+Dual Strike
+Earthquake
+Elemental Focus Support
+Elemental Hit
+Elemental Proliferation Support
+Elemental Weakness
+Empower Support
+Endurance Charge on Melee Stun Support
+Enduring Cry
+Enfeeble
+Enhance Support
+Enlighten Support
+Essence Drain
+Ethereal Knives
+Explosive Arrow
+Faster Attacks Support
+Faster Casting Support
+Faster Projectiles Support
+Fire Nova Mine
+Fire Penetration Support
+Fire Trap
+Fireball
+Firestorm
+Flame Dash
+Flame Surge
+Flame Totem
+Flameblast
+Flammability
+Flesh Offering
+Flicker Strike
+Fork Support
+Fortify Support
+Freeze Mine
+Freezing Pulse
+Frenzy
+Frost Blades
+Frost Bomb
+Frost Wall
+Frostbite
+Frostbolt
+Generosity Support
+Glacial Cascade
+Glacial Hammer
+Grace
+Greater Multiple Projectiles Support
+Ground Slam
+Haste
+Hatred
+Heavy Strike
+Herald of Ash
+Herald of Ice
+Herald of Thunder
+Hypothermia Support
+Ice Bite Support
+Ice Crash
+Ice Nova
+Ice Shot
+Ice Spear
+Ice Trap
+Immortal Call
+Incinerate
+Increased Area of Effect Support
+Increased Burning Damage Support
+Increased Critical Damage Support
+Increased Critical Strikes Support
+Increased Duration Support
+Infernal Blow
+Innervate Support
+Iron Grip Support
+Iron Will Support
+Item Quantity Support
+Item Rarity Support
+Kinetic Blast
+Knockback Support
+Lacerate
+Leap Slam
+Less Duration Support
+Lesser Multiple Projectiles Support
+Life Gain on Hit Support
+Life Leech Support
+Lightning Arrow
+Lightning Penetration Support
+Lightning Strike
+Lightning Tendrils
+Lightning Trap
+Lightning Warp
+Magma Orb
+Mana Leech Support
+Melee Damage on Full Life Support
+Melee Physical Damage Support
+Melee Splash Support
+Minefield Support
+Minion Damage Support
+Minion Life Support
+Minion Speed Support
+Minion and Totem Elemental Resistance Support
+Mirror Arrow
+Molten Shell
+Molten Strike
+Multiple Traps Support
+Multistrike Support
+Orb of Storms
+Phase Run
+Physical Projectile Attack Damage Support
+Physical to Lightning Support
+Pierce Support
+Poacher's Mark
+Point Blank Support
+Poison Support
+Portal (gem)
+Power Charge On Critical Support
+Power Siphon
+Projectile Weakness
+Puncture
+Punishment
+Purity of Elements
+Purity of Fire
+Purity of Ice
+Purity of Lightning
+Rain of Arrows
+Raise Spectre
+Raise Zombie
+Rallying Cry
+Ranged Attack Totem Support
+Rapid Decay Support
+Reave
+Reckoning
+Reduced Mana Support
+Rejuvenation Totem
+Remote Mine Support
+Righteous Fire
+Riposte
+Scorching Ray
+Searing Bond
+Shield Charge
+Shock Nova
+Shockwave Totem
+Shrapnel Shot
+Siege Ballista
+Slower Projectiles Support
+Smoke Mine
+Spark
+Spectral Throw
+Spell Echo Support
+Spell Totem Support
+Spirit Offering
+Split Arrow
+Static Strike
+Storm Call
+Stun Support
+Summon Chaos Golem
+Summon Flame Golem
+Summon Ice Golem
+Summon Lightning Golem
+Summon Raging Spirit
+Summon Skeletons
+Summon Stone Golem
+Sunder
+Sweep
+Tempest Shield
+Temporal Chains
+Tornado Shot
+Trap Cooldown Support
+Trap Support
+Trap and Mine Damage Support
+Vaal Arc
+Vaal Breach
+Vaal Burning Arrow
+Vaal Clarity
+Vaal Cold Snap
+Vaal Cyclone
+Vaal Detonate Dead
+Vaal Discipline
+Vaal Double Strike
+Vaal Fireball
+Vaal Flameblast
+Vaal Glacial Hammer
+Vaal Grace
+Vaal Ground Slam
+Vaal Haste
+Vaal Ice Nova
+Vaal Immortal Call
+Vaal Lightning Strike
+Vaal Lightning Trap
+Vaal Lightning Warp
+Vaal Molten Shell
+Vaal Power Siphon
+Vaal Rain of Arrows
+Vaal Reave
+Vaal Righteous Fire
+Vaal Spark
+Vaal Spectral Throw
+Vaal Storm Call
+Vaal Summon Skeletons
+Vengeance
+Vigilant Strike
+Viper Strike
+Vitality
+Void Manipulation Support
+Vortex
+Vulnerability
+Warlord's Mark
+Weapon Elemental Damage Support
+Whirling Blades
+Wild Strike
+Wither
+Wrath
+Araku Tiki
+Sidhebreath
+Karui Ward
+Stone of Lazhwar
+The Ascetic
+The Ignomon
+Atziri's Foible
+Daresso's Salute
+Extractor Mentis
+Shaper's Seed
+Victario's Acuity
+Astramentis
+Blood of Corruption
+Carnage Heart
+Eye of Chayula
+Hinekora's Sight
+Tear of Purity
+Ungil's Harmony
+Karui Charge
+The Aylardex
+Voll's Devotion
+The Halcyon
+Xoph's Heart
+Ngamahu Tiki
+Marylene's Fallacy
+Voice of the Storm
+The Anvil
+Warped Timepiece
+Bloodgrip
+Presence of Chayula
+Rashkaldor's Patience
+The Pandemonius
+Xoph's Blood
+Eye of Innocence
+Choir of the Storm
+Meginord's Girdle
+Wurm's Molt
+Feastbind
+Perandus Blazon
+The Magnate
+Faminebind
+Belt of the Deceiver
+Bated Breath
+Prismweave
+Sunblast
+Headhunter
+Ascent From Flesh
+Maligaro's Restraint
+The Retch
+Soulthirst
+Immortal Flesh
+Dyadian Dawn
+Doryani's Invitation (Physical Damage)
+Doryani's Invitation (Fire Damage)
+Doryani's Invitation (Cold Damage)
+Doryani's Invitation (Lightning Damage)
+Auxium
+Perseverance
+Blackheart
+Doedre's Damning
+Kaom's Sign
+Perandus Signet
+Malachai's Artifice
+Dream Fragments
+Pyre
+Emberwake
+Mokou's Embrace
+Andvarius
+Berek's Grip
+Berek's Pass
+Berek's Respite
+Call of the Brotherhood
+Heartbound Loop
+Kikazaru
+Tasalio's Sign
+Praxis
+Timeclasp
+Bloodboil
+Le Heup of All
+Gifts from Above
+Ngamahu's Sign
+Shavronne's Revelation
+The Taming
+The Warden's Brand
+Kaom's Way
+Angler's Plait
+Essence Worm
+Valako's Sign
+Valyrium
+Brinerot Mark
+Mutewind Seal
+Redblade Band
+Sibyl's Lament
+Voideye
+Death Rush
+Voidheart
+Rigwald's Crest
+Romira's Banquet
+The Pariah
+Ventor's Gamble
+Snakepit
+Ming's Heart
+Craghead
+Cragfall
+Asphyxia's Wrath
+Hyrri's Bite
+Skirmish
+Blackgleam
+The Signal Fire
+Rearguard
+Drillneck
+Saemus' Gift
+Maloney's Nightfall
+Rigwald's Quills
+Soul Strike
+Broadstroke
+Natural Hierarchy
+Night's Hold
+Blightwell
+Rigwald's Curse
+Eyes of the Greatwolf
+Bisco's Collar
+Bisco's Leash
+Ryslatha's Coil
+Lori's Lantern
+Thief's Torment
+Winterheart
+Umbilicus Immortalis
+Has item classBelts ConceptAcquirable unique items
+Has item classQuivers ConceptAcquirable unique items
+Star of Wraeclast
+Soul Tether
+Bramblejack
+Solaris Lorica
+Wall of Brambles
+Greed's Embrace
+Lioneye's Vision
+Death's Oath
+The Brass Dome
+Kaom's Heart
+Briskwrap
+Ashrend
+Foxshade
+The Snowblind Grace
+Bronn's Lithe
+The Rat Cage
+Queen of the Forest
+Kintsugi
+Hyrri's Ire
+The Perfect Form
+Cospri's Will
+Tabula Rasa
+Skin of the Lords
+Skin of the Loyal
+Thousand Ribbons
+Cloak of Flame
+Zahndethus' Cassock
+Soul Mantle
+The Covenant
+Cloak of Tawm'r Isley
+Vis Mortis
+Shavronne's Wrappings
+Infernal Mantle
+The Beast Fur Shawl
+Viper's Scales
+Belly of the Beast
+Lightning Coil
+Daresso's Defiance
+Cherrubim's Maleficence
+Voll's Protector
+Icetomb
+Ambu's Charge
+Lightbane Raiment
+Kingsguard
+Geofri's Sanctuary
+Incandescent Heart
+Cloak of Defiance
+Victario's Influence
+Carcass Jack
+The Restless Ward
+Demigod's Dominance
+Atziri's Splendour (Evasion and Life)
+Atziri's Splendour (Evasion, Energy Shield and Life)
+Atziri's Splendour (Energy Shield)
+Atziri's Splendour (Evasion and Energy Shield)
+Atziri's Splendour (Armour, Evasion and Life)
+Atziri's Splendour (Armour, Evasion and Energy Shield)
+Atziri's Splendour (Armour, Energy Shield and Life)
+Atziri's Splendour (Armour and Life)
+Atziri's Splendour (Armour and Energy Shield)
+Windscream
+Redblade Tramplers
+The Infinite Pursuit
+The Red Trail
+Kaom's Roots
+Seven-League Step
+Victario's Flight
+Abberath's Hooves
+Deerstalker
+Goldwyrm
+The Blood Dance
+Three-step Assault
+Sin Trek
+Atziri's Step
+Wanderlust
+Wondertrap
+Bones of Ullr
+Shavronne's Pace
+Shavronne's Gambit
+Rainbowstride
+Steppan Eard
+Skyforth
+Dusktoe
+Lioneye's Paws
+Mutewind Whispersteps
+Darkray Vectors
+Wake of Destruction
+Alberon's Warpath
+Gang's Momentum
+Death's Door
+Nomic's Storm
+Sundance
+Brinerot Whalers
+Voidwalker
+Lochtonial Caress
+Meginord's Vise
+Winds of Change
+Empire's Grasp
+Doryani's Fist
+Veruso's Battering Rams
+Atziri's Acuity
+Hrimsorrow
+Maligaro's Virtuosity
+Hrimburn
+Sadima's Touch
+Doedre's Tenure
+Asenath's Gentle Touch
+Voidbringer
+Grip of the Council
+Flesh and Spirit
+Slitherpinch
+Vaal Caress
+Aurseize
+Wyrmsign
+Surgebinders
+Shackles of the Wretched
+Southbound
+Null and Void
+Shaper's Touch
+Repentance
+Ondar's Clasp
+Facebreaker
+Shadows and Dust
+Snakebite
+Thunderfist
+Ezomyte Hold
+Tear of Entropy
+Ezomyte Peak
+The Formless Flame
+Hrimnor's Resolve
+Abyssus
+The Formless Inferno
+Goldrim
+Fairgraves' Tricorne
+Heatshiver
+Rat's Nest
+Starkonja's Head
+Alpha's Howl
+Obscurantis
+Crown of Thorns
+Asenath's Mark
+Doedre's Scorn
+Martyr's Crown
+Chitus' Apex
+Rime Gaze
+Scold's Bridle
+Ylfeban's Trickery
+Crown of Eyes
+The Peregrine
+Deidbell
+Deidbellow
+Skullhead
+Black Sun Crest
+Devoto's Devotion
+The Bringer of Rain
+Honourhome
+Veil of the Night
+Mindspiral
+Kitava's Thirst
+Geofri's Crest
+The Brine Crown
+The Broken Crown
+Malachai's Vision
+Voll's Vision
+Malachai's Simula
+Leer Cast
+The Three Dragons
+The Gull
+Crown of the Pale King
+Mind of the Council
+The Vertex
+Heretic's Veil
+Lycosidae
+Trolltimber Spire
+Titucius' Span
+Redblade Banner
+Chernobog's Pillar
+Tukohama's Fortress
+The Anticipation
+The Surrender
+Lioneye's Remorse
+Remnant of Empires
+Crest of Perandus
+Kaltenhalt
+Kaltensoul
+Chalice of Horrors
+Thirst for Horrors
+Mutewind Pennant
+Great Old One's Ward
+Atziri's Mirror
+Thousand Teeth Temu
+Matua Tupuna
+Brinerot Flag
+Light of Lunaris
+Sentari's Answer
+Kongming's Stratagem
+Esh's Mirror
+Esh's Visage
+Malachai's Loop
+Rathpith Globe
+Wheel of the Stormsail
+The Deep One's Hide
+Daresso's Courage
+Springleaf
+The Oak
+Victario's Charity
+Saffell's Frame
+Aegis Aurora
+Rise of the Phoenix
+Broken Faith
+Prism Guardian
+Glitterdisc
+Maligaro's Lens
+Jaws of Agony
+The Baron
+Haemophilia
+Ahn's Heritage
+Gruthkul's Pelt
+Garukhan's Flight
+Has item classBody Armours ConceptPure evasion unique items
+Has item classBody Armours ConceptHybrid evasion and armour unique items
+Has item classBody Armours ConceptHybrid evasion and energy shield unique items
+Has item classBoots ConceptPure armour unique items
+Has item classBoots ConceptPure energy shield unique items
+Has item classBoots ConceptHybrid armour and energy shield unique items
+Has item classBoots ConceptHybrid evasion, energy shield and armour unique items
+Has item classGloves ConceptPure evasion unique items
+Has item classGloves ConceptHybrid evasion and armour unique items
+Has item classGloves ConceptHybrid evasion and energy shield unique items
+Has item classHelmets ConceptPure armour unique items
+Has item classHelmets ConceptPure energy shield unique items
+Has item classHelmets ConceptHybrid armour and energy shield unique items
+Has item classHelmets ConceptHybrid evasion, energy shield and armour unique items
+Has item classShields ConceptPure evasion unique items
+Has item classShields ConceptHybrid evasion and armour unique items
+Has item classShields ConceptHybrid evasion and energy shield unique items
+The Screaming Eagle
+Dreadarc
+Relentless Fury
+The Gryphon
+Moonbender's Wing
+Soul Taker
+Jack, the Axe
+Rigwald's Savagery
+Dyadus
+Limbsplit
+Wideswing
+Reaper's Pursuit
+The Harvest
+The Cauteriser
+The Blood Reaper
+Uul-Netol's Kiss
+Ngamahu's Flame
+Kaom's Primacy
+Wings of Entropy
+Hezmana's Bloodlust
+Uul-Netol's Embrace
+Kingmaker
+Kitava's Feast
+Atziri's Disfavour
+Silverbranch
+Storm Cloud
+Roth's Reach
+Xoph's Inception
+Doomfletch
+Death's Harp
+Iron Commander
+The Tempest
+Doomfletch's Prism
+Death's Opus
+Infractem
+Null's Inclination
+Chin Sol
+Darkscorn
+Voltaxic Rift
+Xoph's Nurture
+Lioneye's Glare
+Windripper
+Slivertongue
+Last Resort
+Wildslash
+Hand of Thought and Motion
+Al Dhih
+Cybil's Paw
+Advancing Fortress
+Ornament of the East
+Bloodseeker
+Essentia Sanguis
+Allure
+Hand of Wisdom and Action
+Izaro's Dilemma
+Touch of Anguish
+Rive
+The Scourge
+Goredrill
+Bloodplay
+Ungil's Gauche
+Mightflay
+Heartbreaker
+Arakaali's Fang
+The Consuming Dark
+Mark of the Doubting Knight
+Bino's Kitchen Knife
+Divinarius
+Reefbane
+Song of the Sirens
+Gorebreaker
+Brightbeak
+Lavianga's Wisdom
+Flesh-Eater
+Clayshaper
+Cameria's Maul
+Mjölner
+Callinellus Malleus
+Axiom Perpetuum
+Brutus' Lead Sprinkler
+Bitterdream
+The Dark Seer
+Nycta's Lantern
+The Supreme Truth
+Death's Hand
+Singularity
+Doon Cuebiyari
+Breath of the Council
+Mon'tregul's Grasp
+Doryani's Catalyst
+Hrimnor's Hymn
+Quecholli
+Hrimnor's Dirge
+Chober Chaber
+Trypanon
+Jorrhast's Blacksteel
+Voidhome
+Marohi Erqi
+Kongor's Undying Rage
+Redbeak
+The Princess
+The Tempestuous Steel
+Lakishu's Blade
+The Goddess Scorned
+Ephemeral Edge
+Severed in Sleep
+The Goddess Unleashed
+Prismatic Eclipse
+Ichimonji
+Scaeva
+Hyaon's Fury
+Rebuke of the Vaal
+Varunastra
+Dreamfeather
+Razor of the Seventh Sun
+Rigwald's Command
+United in Dream
+The Goddess Bound
+Aurumvorax
+Fidelitas' Spike
+Ewar's Mirage
+Cospri's Malice
+Shiversting
+Edge of Madness
+Queen's Decree
+Queen's Escape
+Hiltless
+Doomsower
+Oro's Sacrifice
+Starforge
+Fencoil
+The Blood Thorn
+Pillar of the Caged God
+Realmshaper
+Xirgil's Crank
+The Whispering Ice
+Realm Ender
+Tremor Rod
+Sire of Shards
+Femurs of the Saints
+Duskdawn
+Taryn's Shiver
+Agnerod East
+Agnerod North
+Agnerod South
+Agnerod West
+Hegemony's Era
+Pledge of Hands
+Lifesprig
+Abberath's Horn
+Storm Prison
+Ashcaller
+Reverberation Rod
+Tulborn
+Amplification Rod
+Midnight Bargain
+Obliteration
+Moonsorrow
+Apep's Rage
+Piscator's Vigil
+Tulfall
+Void Battery
+Reach of the Council
+Quill Rain
+Mortem Morsu
+Brain Rattler
+Innsbury Edge
+Terminus Est
+Shade of Solaris
+Twyzel
+Geofri's Baptism
+Rigwald's Charge
+Martyr of Innocence
+Dying Breath
+The Searing Touch
+Nuro's Harp
+Widowmaker
+Frostbreath
+Spine of the First Claimant
+Chitus' Needle
+Daresso's Passion
+The Dancing Dervish
+Kondo's Pride
+The Stormheart
+Eclipse Solaris
+Silverbough
+Tidebreaker
+Has item classTwo Hand Axes ConceptAcquirable unique items
+Has item classClaws ConceptAcquirable unique items
+Has item classFishing Rods ConceptAcquirable unique items
+Has item classSceptres ConceptAcquirable unique items
+Has item classOne Hand Swords ConceptAcquirable unique items
+Has item classTwo Hand Swords ConceptAcquirable unique items
+Has item classWands ConceptAcquirable unique items
+Blood of the Karui
+Doedre's Elixir
+Zerphi's Last Breath
+Lavianga's Spirit
+Sin's Rebirth
+Coruscating Elixir
+Taste of Hate
+Kiara's Determination
+Forbidden Taste
+Lion's Roar
+The Sorrow of the Divine
+Rotgut
+Witchfire Brew
+Atziri's Promise
+Dying Sun
+Rumi's Concoction
+Vessel of Vinktar (Physical Damage Converted to Lightning Damage)
+Vessel of Vinktar (Lightning Penetration)
+Vessel of Vinktar (Added Lightning Damage to Spells)
+Vessel of Vinktar (Added Lightning Damage to Attacks)
+Divination Distillate
+The Wise Oak
+The Writhing Jar
+The Overflowing Chalice
+Has item classMana Flasks ConceptAcquirable unique items
+Has item classUtility Flasks ConceptAcquirable unique items
+Has lowercase namesconqueror's efficiency Has inventory icon+ Has infobox HTML+
+Has lowercase namesconqueror's potency Has inventory icon+ Has infobox HTML+
+Has lowercase namessurvival instincts Has inventory icon+ Has infobox HTML+
+Has lowercase namessurvival skills Has inventory icon+ Has infobox HTML+
+Emperor's Cunning
+Emperor's Might
+Emperor's Wit
+Emperor's Mastery
+Cannibalistic Habits
+Coated Weapons
+Controlled Energy
+Dark Thoughts
+Mantra of Force
+Miser of Misery
+Projected Force
+Selfless Leadership
+Specialised
+Stimulated Growth
+Sturdy Growth
+Surplus
+Vampire's Might
+Wisdom of the Path Not Taken
+Zerphi's Youth
+Anatomical Knowledge
+Apparitions
+Army of Bones
+Assassin's Haste
+Brawn
+Brute Force Solution
+Careful Planning
+Clear Mind
+Coated Shrapnel
+Cold Steel
+Conqueror's Efficiency
+Conqueror's Longevity
+Conqueror's Potency
+Efficient Training
+Eldritch Knowledge
+Energised Armour
+Energy From Within
+Fertile Mind
+Fireborn
+Fluid Motion
+Fortified Legion
+Fragile Bloom
+Grand Spectrum (Crimson Jewel)
+Grand Spectrum (Viridian Jewel)
+Growing Agony
+Hair Trigger
+Healthy Mind
+Hidden Potential
+Hotfooted
+Inertia
+Intuitive Leap
+Lioneye's Fall
+Malicious Intent
+Mantra of Flames
+Martial Artistry
+Might in All Forms
+Pitch Darkness
+Poacher's Aim
+Primordial Eminence
+Primordial Harmony
+Primordial Might
+Pugilist
+Rain of Splinters
+Rapid Expansion
+Rolling Flames
+Shattered Chains
+Spire of Stone
+Spirit Guards
+Static Electricity
+Steel Spirit
+Survival Instincts
+Survival Secrets
+Survival Skills
+The Anima Stone
+The Blue Dream
+The Blue Nightmare
+The Green Dream
+The Green Nightmare
+The Red Dream
+The Red Nightmare
+Unending Hunger
+Unstable Payload
+Volley Fire
+Warlord's Reach
+Weight of the Empire
+Ancient Waystones
+Atziri's Reign
+Blood Sacrifice
+Brittle Barrier
+Combustibles
+Corrupted Energy
+Fevered Mind
+Fragility
+Hungry Abyss
+Mutated Growth
+Pacifism
+Powerlessness
+Sacrificial Harvest
+Self-Flagellation
+Vaal Sentencing
+Weight of Sin
+First Snow
+Inspired Learning
+Ring of Blades
+Sudden Ignition
+Violent Dead
+Chill of Corruption
+Collateral Damage
+Fight for Survival
+Frozen Trail
+Inevitability
+Might and Influence
+Omen on the Winds
+Overwhelming Odds
+Wildfire
+Winter Burial
+Has item classJewel ConceptAcquirable unique items Is corruptedtrue
+CategoryBeta only jewels Has item classJewel Is drop enabledfalse
+Cheap Construction
+Dead Reckoning
+Grand Spectrum (Cobalt Jewel)
+Izaro's Turmoil
+Reckless Defence
+Spirited Response
+The Vigil
+Winter's Bounty
