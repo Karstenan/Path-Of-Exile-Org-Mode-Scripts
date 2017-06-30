@@ -400,8 +400,6 @@ Lori's Lantern
 Thief's Torment
 Winterheart
 Umbilicus Immortalis
-Has item classBelts ConceptAcquirable unique items
-Has item classQuivers ConceptAcquirable unique items
 Star of Wraeclast
 Soul Tether
 Bramblejack
@@ -621,23 +619,6 @@ Haemophilia
 Ahn's Heritage
 Gruthkul's Pelt
 Garukhan's Flight
-Has item classBody Armours ConceptPure evasion unique items
-Has item classBody Armours ConceptHybrid evasion and armour unique items
-Has item classBody Armours ConceptHybrid evasion and energy shield unique items
-Has item classBoots ConceptPure armour unique items
-Has item classBoots ConceptPure energy shield unique items
-Has item classBoots ConceptHybrid armour and energy shield unique items
-Has item classBoots ConceptHybrid evasion, energy shield and armour unique items
-Has item classGloves ConceptPure evasion unique items
-Has item classGloves ConceptHybrid evasion and armour unique items
-Has item classGloves ConceptHybrid evasion and energy shield unique items
-Has item classHelmets ConceptPure armour unique items
-Has item classHelmets ConceptPure energy shield unique items
-Has item classHelmets ConceptHybrid armour and energy shield unique items
-Has item classHelmets ConceptHybrid evasion, energy shield and armour unique items
-Has item classShields ConceptPure evasion unique items
-Has item classShields ConceptHybrid evasion and armour unique items
-Has item classShields ConceptHybrid evasion and energy shield unique items
 The Screaming Eagle
 Dreadarc
 Relentless Fury
@@ -825,13 +806,6 @@ The Stormheart
 Eclipse Solaris
 Silverbough
 Tidebreaker
-Has item classTwo Hand Axes ConceptAcquirable unique items
-Has item classClaws ConceptAcquirable unique items
-Has item classFishing Rods ConceptAcquirable unique items
-Has item classSceptres ConceptAcquirable unique items
-Has item classOne Hand Swords ConceptAcquirable unique items
-Has item classTwo Hand Swords ConceptAcquirable unique items
-Has item classWands ConceptAcquirable unique items
 Blood of the Karui
 Doedre's Elixir
 Zerphi's Last Breath
@@ -856,12 +830,6 @@ Divination Distillate
 The Wise Oak
 The Writhing Jar
 The Overflowing Chalice
-Has item classMana Flasks ConceptAcquirable unique items
-Has item classUtility Flasks ConceptAcquirable unique items
-Has lowercase namesconqueror's efficiency Has inventory icon+ Has infobox HTML+
-Has lowercase namesconqueror's potency Has inventory icon+ Has infobox HTML+
-Has lowercase namessurvival instincts Has inventory icon+ Has infobox HTML+
-Has lowercase namessurvival skills Has inventory icon+ Has infobox HTML+
 Emperor's Cunning
 Emperor's Might
 Emperor's Wit
@@ -977,8 +945,6 @@ Omen on the Winds
 Overwhelming Odds
 Wildfire
 Winter Burial
-Has item classJewel ConceptAcquirable unique items Is corruptedtrue
-CategoryBeta only jewels Has item classJewel Is drop enabledfalse
 Cheap Construction
 Dead Reckoning
 Grand Spectrum (Cobalt Jewel)

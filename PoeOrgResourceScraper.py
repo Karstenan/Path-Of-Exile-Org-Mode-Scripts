@@ -43,7 +43,23 @@ def listCleaner(listToBeCleaned):
         # print(re.search(regex, name))
         if re.match(regex, name) is None:
             listToBeCleaned.remove(name)
-    return listToBeCleaned
+   
+    for i, name in enumerate(listToBeCleaned):
+        replaced = re.sub('[\][:]', '', name)
+        listToBeCleaned[i] = replaced
+
+    tempList = []
+    for i, name in enumerate(listToBeCleaned):
+        if re.match("^Has\s.*$", name):
+            print (name)
+        elif re.match("^CategoryBeta.*$", name):
+             print (name)
+        elif re.match("^Concept", name):
+            print (name)
+        else:
+            tempList.append(name)
+            
+    return tempList
 
 # Writes list to a file
 def writeResultToFile(listToWrite, fileName):
@@ -56,11 +72,8 @@ def writeResultToFile(listToWrite, fileName):
 def makeNameList(listToBeChanged, poeRequest):
     listToBeChanged = getNamesFromJson(poeRequest)
     listToBeChanged = listCleaner(listToBeChanged)
-    for i, name in enumerate(listToBeChanged):
-        replaced = re.sub('[\][:]', '', name)
-        listToBeChanged[i] = replaced
     return listToBeChanged
-    
+
 
 ############################## Get json ##############################################
 skillGemsRequest = requests.get(urlSkillGems)
